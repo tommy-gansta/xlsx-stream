@@ -2,7 +2,7 @@
   "name": "xlsx-write-stream",
   "version": "0.0.19",
   "description": "XLSX stream writer",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "keywords": [
     "apify",
     "apifier",
