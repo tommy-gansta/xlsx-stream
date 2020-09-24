@@ -19,7 +19,7 @@ class XLSXRowTransform extends _stream.Transform {
      */
     _transform(row, encoding, callback) {
         // eslint-disable-line
-        if (!row || row.length == 0) callback();
+        if (!row || row.length == 0) return callback();
 
         const xlsxRow = (0, _templates.Row)(this.rowCount, row);
         this.rowCount++;
